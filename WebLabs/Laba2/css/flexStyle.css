@@ -14,12 +14,12 @@ body {
 }
 .title {
     display: flex;
-    margin-left: 10vw;
+    margin-left: 5vw;
 }
 .nav-wrapper {
     display: flex;
     flex-direction: column;
-    margin-left: 70vw;
+    margin-left: 75vw;
 }
 .article-wrapper {
     display: flex;
@@ -33,7 +33,6 @@ body {
     width: 50%;
 }
 .pagination-wrapper {
-    margin-top: auto;
     height: 5vh;
 }
 .aside-wrapper {
@@ -48,9 +47,8 @@ body {
     margin-left: auto;
     width: 35%;
 }
-.footer-text {
-    margin-left: auto;
-    width: 40%;
+.footer-wrapper .title {
+    min-width: 20vh;
 }
 .main-wrapper {
     display: flex;
@@ -60,9 +58,12 @@ body {
     width: 100%;
     text-align: center;
 }
-.aside-wrapper, .article-wrapper, .main-wrapper:first-child{
+.aside-wrapper, .article-wrapper, .main-text-wrapper{
     display: flex;
     align-items: center;
+}
+.main-text-wrapper {
+    height: 100%;
 }
 .aside-text, .article-text{
     margin-left: auto;
