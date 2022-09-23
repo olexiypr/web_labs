@@ -9,6 +9,11 @@
     float: right;
     margin-top: 9vh;
 }
+.header-img {
+    position: absolute;
+    top: 26%;
+    left: 50%;
+}
 .title {
     width: max-content;
     position: absolute;

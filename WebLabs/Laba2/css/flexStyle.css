@@ -19,7 +19,11 @@ body {
 .nav-wrapper {
     display: flex;
     flex-direction: column;
-    margin-left: 75vw;
+    margin-right: 2vw;
+}
+.header-img-wrapper {
+    margin-right: auto;
+    margin-left: auto;
 }
 .article-wrapper {
     display: flex;

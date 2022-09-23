@@ -23,8 +23,15 @@ body {
 }
 .menu-wrapper .menu {
     display: grid;
-    justify-content: end;
+    justify-content: center;
     margin-right: 5%;
+}
+.menu-wrapper {
+    grid-template-columns: max-content 1fr 10vw;
+}
+.header-img {
+    margin-left: auto;
+    margin-right: auto;
 }
 .title {
     margin-left: 5vw;
