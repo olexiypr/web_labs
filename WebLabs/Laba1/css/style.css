@@ -24,8 +24,19 @@ body {
 }
 .menu-wrapper .menu {
     display: grid;
+    width: max-content;
     justify-content: end;
-    margin-right: 5%;
+}
+.nav-wrapper {
+    width: max-content;
+    margin-right: 3vw;
+}
+.menu-wrapper {
+    grid-template-columns: max-content 1fr max-content;
+}
+.header-img {
+    margin-left: auto;
+    margin-right: auto;
 }
 .title {
     margin-left: 5vw;
@@ -44,13 +55,6 @@ body {
     grid-column: 2/3;
     grid-row: 2/3;
     background-color: white;
-}
-.menu-wrapper {
-    grid-template-columns: max-content 1fr max-content;
-}
-.header-img {
-    margin-left: auto;
-    margin-right: auto;
 }
 .main-text {
     width: 30%;
