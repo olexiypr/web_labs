@@ -10,8 +10,12 @@
 <body>
     <header class="menu-wrapper">
         <h1 class="title">Lorem ipsum</h1>
-        <img src="img/header-img.jpg" class="header-img" width="160" height="110" alt="HTML&CSS Image">
-        <div class="menu">
+        <img src="img/header-img.jpg" class="header-img" width="160" height="110" alt="HTML&CSS Image" usemap="#map">
+        <map name="map">
+            <area shape="rect" href="https://ru.wikipedia.org/wiki/HTML" coords="0,0,55,110">
+            <area shape="rect" href="https://ru.wikipedia.org/wiki/CSS" coords="55,0,110,110">
+            <area shape="rect" href="https://ru.wikipedia.org/wiki/JavaScript" coords="110,0,160,110">
+        </map>        <div class="menu">
             <ul class="nav-wrapper">
                 <li class="nav-link-wrapper"><a class="link" href="index.html">Index</a></li>
                 <li class="nav-link-wrapper"><a class="link" href="index2.html">Index2</a></li>

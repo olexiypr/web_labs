@@ -32,9 +32,11 @@ body {
     margin-right: 3vw;
 }
 .menu-wrapper {
-    grid-template-columns: max-content 1fr max-content;
+    grid-template-columns: max-content 1fr min-content max-content;
 }
 .header-img {
+    width: 160px;
+    height: 110px;
     margin-left: auto;
     margin-right: auto;
 }
