@@ -20,14 +20,25 @@ body {
 .menu-wrapper {
     grid-column: 1/4;
     align-items: center;
+
 }
 .menu-wrapper .menu {
     display: grid;
-    justify-content: center;
-    margin-right: 5%;
+    width: max-content;
+    justify-content: end;
+}
+.nav-wrapper {
+    width: max-content;
+    margin-right: 3vw;
 }
 .menu-wrapper {
-    grid-template-columns: max-content 1fr 10vw;
+    grid-template-columns: max-content 1fr min-content max-content;
+}
+.header-img {
+    width: 160px;
+    height: 110px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .header-img {
     margin-left: auto;
