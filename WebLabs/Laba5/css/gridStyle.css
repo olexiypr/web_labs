@@ -155,19 +155,22 @@ body {
         grid-row: 2/2;
     }
     .aside-wrapper {
-        min-height: 25vh;
+        margin: 0;
         display: grid;
+        grid-template-rows: min-content 1fr;
+        min-height: 25vh;
         justify-items: center;
         width: 200%;
         grid-column: 1/2;
         grid-row: 3/3;
     }
     .aside-text {
-        margin-top: 150px;
+        margin: 0;
+        width: 200%;
         text-align: center;
     }
     .task-3 {
-        margin-right: auto;
+        margin: 20px 0 0;
     }
     .footer-wrapper {
         width: 100%;
@@ -186,7 +189,6 @@ body {
 }
 @media screen and (max-width: 800px) {
     body {
-
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
