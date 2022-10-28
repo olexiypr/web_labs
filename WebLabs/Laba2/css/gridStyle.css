@@ -151,6 +151,7 @@ body {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
+   
     .menu-wrapper {
         width: 100%;
         grid-column: 1/1;
