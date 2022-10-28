@@ -6,4 +6,7 @@ Repository for labs with web programming of the student of group IP-14 Prokopenk
   <li>
     <a href="https://olexiypr.github.io/web_labs/WebLabs/Laba2/index.html"  target="_blank">Laba2</a>
   </li>
+  <li>
+    <a href="https://olexiypr.github.io/web_labs/WebLabs/Laba5/index.html"  target="_blank">Laba5</a>
+  </li>
 </ul>
