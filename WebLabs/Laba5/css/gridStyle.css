@@ -13,6 +13,9 @@ body {
     display: grid;
     grid-template-columns: max-content 1fr;
 }
+.menu-wrapper {
+    grid-template-columns: max-content 20vw;
+}
 .article-wrapper, .main-wrapper, .footer-wrapper, .aside-wrapper{
     display: grid;
     justify-items: end;
@@ -22,13 +25,16 @@ body {
     grid-column: 1/4;
     align-items: center;
 }
+.menu {
+
+}
 .menu-wrapper .menu {
     display: grid;
-    width: max-content;
+    width: 20vw;
     justify-content: end;
 }
 .nav-wrapper {
-    width: max-content;
+    width: 100%;
     margin-right: 3vw;
 }
 .menu-wrapper {
@@ -120,16 +126,16 @@ body {
 @media screen and (max-width: 1200px){
     body {
         width: 100%;
-        grid-template-columns: 50vw 50vw;
+        grid-template-columns: 50% 50%;
         grid-template-rows: 1fr 1fr 1fr 1fr;
     }
     .menu-wrapper {
-        width: 100vw;
+        width: 200%;
         grid-column: 1/2;
         align-items: center;
     }
     .main-wrapper {
-        width: 50vw;
+        width: 100%;
         height: 50vh;
         grid-template-rows: 1fr max-content;
         grid-column: 2/2;
@@ -144,22 +150,27 @@ body {
     }
     .article-wrapper {
         height: 50vh;
-        width: 50vw;
+        width: 100%;
         grid-column: 1/1;
         grid-row: 2/2;
     }
     .aside-wrapper {
-        min-height: 18vh;
+        min-height: 25vh;
         display: grid;
         justify-items: center;
-        width: 100vw;
+        width: 200%;
         grid-column: 1/2;
         grid-row: 3/3;
     }
     .aside-text {
+        margin-top: 150px;
         text-align: center;
     }
+    .task-3 {
+        margin-right: auto;
+    }
     .footer-wrapper {
+        width: 100%;
         min-height: 18vh;
         grid-template-columns: max-content 1fr;
         grid-column: 1/3;
