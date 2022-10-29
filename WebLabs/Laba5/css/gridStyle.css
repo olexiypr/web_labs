@@ -237,7 +237,7 @@ body {
         width: 100%;
         grid-column: 1/1;
         grid-row: 4/4;
-        min-height: 280px;
+        min-height: 310px;
     }
     .footer-wrapper {
         height: 30vh;
